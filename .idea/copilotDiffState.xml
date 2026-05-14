@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/readme.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/readme.md" />
+              <option name="originalContent" value="# Desafio&#10;&#10;Com base no conteudo didatico (I/O e NIO.2) explorar a API (foco na NIO) de manipulação de pastas e arquivos. Junto com seu grupo pense em uma aplicação java que utilize essa API de arquivos.&#10;&#10;ex:&#10;- Automação de pastas e arquivos: criar pastas e arquivos dinamicamente, seguindo alguma operação manual, ou lógica&#10;- Ler e processar arquivos pre existentes como .csv, .xls (excel)&#10;- Extrair dados de uma fonte externa (ex internet) e registar os dados em arquivos (Desafio nível dificuldade alto)&#10;&#10;" />
+              <option name="updatedContent" value="# Desafio&#10;&#10;Com base no conteudo didatico (I/O e NIO.2) explorar a API (foco na NIO) de manipulação de pastas e arquivos. Junto com seu grupo pense em uma aplicação java que utilize essa API de arquivos.&#10;&#10;ex:&#10;- Automação de pastas e arquivos: criar pastas e arquivos dinamicamente, seguindo alguma operação manual, ou lógica&#10;- Ler e processar arquivos pre existentes como .csv, .xls (excel)&#10;- Extrair dados de uma fonte externa (ex internet) e registar os dados em arquivos (Desafio nível dificuldade alto)&#10;&#10;&#10;## Solução implementada&#10;&#10;O programa em `Main.java` cria automaticamente a seguinte estrutura:&#10;&#10;- `copa do mundo 2022/`&#10;  - `Grupo A/selecoes.txt`&#10;  - `Grupo B/selecoes.txt`&#10;  - `Grupo C/selecoes.txt`&#10;  - `Grupo D/selecoes.txt`&#10;  - `Grupo E/selecoes.txt`&#10;  - `Grupo F/selecoes.txt`&#10;  - `Grupo G/selecoes.txt`&#10;  - `Grupo H/selecoes.txt`&#10;&#10;Cada arquivo `selecoes.txt` contém os nomes das seleções do grupo correspondente.&#10;&#10;## Como executar&#10;&#10;```bash&#10;javac src/Main.java&#10;java -cp src Main&#10;```&#10;&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
