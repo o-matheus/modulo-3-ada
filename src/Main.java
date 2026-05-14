@@ -10,16 +10,10 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) {
-        String[] grupos = {
-                "Grupo A",
-                "Grupo B",
-                "Grupo C",
-                "Grupo D",
-                "Grupo E",
-                "Grupo F",
-                "Grupo G",
-                "Grupo H"
-        };
+        String[] grupos = java.util.stream.IntStream.range(0, 8)
+                .mapToObj(i -> "Grupo " + (char) ('A' + i))
+                .toArray(String[]::new);
+
 
         String[][] selecoesPorGrupo = {
                 {"Catar", "Equador", "Senegal", "Holanda"},
