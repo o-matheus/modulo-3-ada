@@ -13,14 +13,14 @@ ex:
 O programa em `Main.java` cria automaticamente a seguinte estrutura:
 
 - `copa do mundo 2022/`
-  - `Grupo A/selecoes.txt`
-  - `Grupo B/selecoes.txt`
-  - `Grupo C/selecoes.txt`
-  - `Grupo D/selecoes.txt`
-  - `Grupo E/selecoes.txt`
-  - `Grupo F/selecoes.txt`
-  - `Grupo G/selecoes.txt`
-  - `Grupo H/selecoes.txt`
+  - `Grupo A/selecoes_grupo_A.txt`
+  - `Grupo B/selecoes_grupo_B.txt`
+  - `Grupo C/selecoes_grupo_C.txt`
+  - `Grupo D/selecoes_grupo_D.txt`
+  - `Grupo E/selecoes_grupo_E.txt`
+  - `Grupo F/selecoes_grupo_F.txt`
+  - `Grupo G/selecoes_grupo_G.txt`
+  - `Grupo H/selecoes_grupo_H.txt`
 
 Cada arquivo `selecoes.txt` contém os nomes das seleções do grupo correspondente.
 
