@@ -41,7 +41,7 @@ public class Main {
                             Path pastaDoGrupo = raiz.resolve(grupos[indice]);
                             Files.createDirectories(pastaDoGrupo);
 
-                            Path arquivo = pastaDoGrupo.resolve("selecoes.txt");
+                            Path arquivo = pastaDoGrupo.resolve("selecoes_grupo_" +(char)('A' +indice) + ".txt");
                             String conteudo = Arrays.stream(selecoesPorGrupo[indice])
                                     .collect(java.util.stream.Collectors.joining(System.lineSeparator()));
 
